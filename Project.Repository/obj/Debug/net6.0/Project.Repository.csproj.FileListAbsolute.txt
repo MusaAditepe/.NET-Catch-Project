@@ -1,0 +1,17 @@
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Repository.deps.json
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Repository.runtimeconfig.json
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Repository.dll
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Repository.pdb
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Core.dll
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\bin\Debug\net6.0\Project.Core.pdb
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.AssemblyReference.cache
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfoInputs.cache
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.AssemblyInfo.cs
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CoreCompileInputs.cache
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.csproj.CopyComplete
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.dll
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\refint\Project.Repository.dll
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.pdb
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\Project.Repository.genruntimeconfig.cache
+C:\Users\musa_\OneDrive\Masaüstü\TandGProject\Project.Repository\obj\Debug\net6.0\ref\Project.Repository.dll

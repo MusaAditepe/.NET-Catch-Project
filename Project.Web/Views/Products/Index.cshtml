@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+
+
+    var products = ViewData.Model as List<ProductWithCategoryDto>;
+    var categories = ViewData["Categories"] as List<CategoryDto>;
+     }
+     @model List<ProductWithCategoryDto>;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Listesi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+        }
+
+        #sidebar {
+            width: 200px;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        #main {
+            flex: 1;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            cursor: pointer;
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+            li:hover {
+                background-color: #f5f5f5;
+            }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                @{
+                    var uniqueCategories = Model
+        .GroupBy(p => p.CategoryId)
+        .Select(g => g.First())
+        .ToList();
+                 }
+                @foreach (var item in uniqueCategories){
+                  <li>@item.Category.Name </li>
+                  }
+              
+            </ul>
+        </div>
+        <div id="main">
+            <h2>Ürünler</h2>
+            <ul>
+                @foreach (var product in Model)
+                {
+                    <li> @product.Name,@product.Price,@product.Stock </li>
+                }
+                
+            
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
